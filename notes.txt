@@ -1,0 +1,17 @@
+ML Frameworks => 5 most popular 
+Torch, Theano, Keras, Tensorflow 
+
+
+
+# Tensors 
+Every tensor is an instance of the Tensor class 
+may contain numbers, strings or boolean values 
+tensors may be created, transformed and operated upon 
+
+
+Executing Graphs in a Session 
+Application executes a tensorflow that creates, transforms or processes a tensor 
+Function does not execute the operation. 
+Stores its operation in a data structure called graph 
+A graph can hold many operations and not executed until 
+the application executes the graph in a session 
